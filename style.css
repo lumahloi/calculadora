@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+
+h1 {
+    margin: 15px 0;
+    color: #76BED0;
+    text-align: center;
+}
+
+footer > p {
+    margin-top: 10px;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #76BED0;
+}
+
+a:hover {
+    color: #F7CB15;
+}
+
+section#container {
+    height: 500px;
+    width: 345px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+div#res {
+    height: 80px;
+    width: 300px;
+    margin: 10px 0;
+    border-bottom: 3px solid #F7CB15;
+}
+
+div#res > p#p_res {
+    font-size: 4vh;
+    margin: 25px 0px;
+    text-align: left;
+
+}
+
+section#container > div#result_bttn {
+    width: 215px;
+    border-radius: 10px;
+}
+
+section#container > div.operation, div.number {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    font-size: 4vh;
+    display: block;
+}
+
+section#container > div.operation:hover {
+    background-color: #9e3c29;
+    color: white;
+}
+
+section#container > div.operation:active {
+    background-color: #ffb3a4;
+}
+
+section#container > div.number:hover {
+    background-color: #3c626b;
+}
+
+section#container > div.number:active {
+    background-color: #c5f3ff;
+}
+
+section#container > div.operation {
+    background-color: #F55D3E;
+}
+
+section#container > div.number {
+    background-color: #76BED0;
+}
+
+section#container > div.operation > p {
+    margin: 18px 0px;
+}
+
+section#container > div.number > p {
+    margin: 18px 0px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+
+    <section id="container">
+        <div id="res"><p id="p_res"></p></div>
+        
+        <div class="operation" id="clear" onclick="limpar()"><p>C</p></div>
+        <div class="operation" onclick="remover()"><p>DEL</p></div>
+        <div class="operation"  onclick="inserir('.')"><p>.</p></div>
+        <div class="operation"  onclick="inserir('+')"><p>+</p></div>
+
+        <div class="number" onclick="inserir('1')"><p>1</p></div>
+        <div class="number" onclick="inserir('2')"><p>2</p></div>
+        <div class="number" onclick="inserir('3')"><p>3</p></div>
+        <div class="operation" onclick="inserir('-')"><p>-</p></div>
+
+        <div class="number" onclick="inserir('4')"><p>4</p></div>
+        <div class="number" onclick="inserir('5')" ><p>5</p></div>
+        <div class="number" onclick="inserir('6')"><p>6</p></div>
+        <div class="operation"  onclick="inserir('*')"><p>*</p></div>
+
+        <div class="number" onclick="inserir('7')"><p>7</p></div>
+        <div class="number" onclick="inserir('8')"><p>8</p></div>
+        <div class="number" onclick="inserir('9')"><p>9</p></div>
+        <div class="operation"  onclick="inserir('/')"><p>/</p></div>
+        
+        <div class="number" onclick="inserir('0')"><p>0</p></div>
+        <div class="operation" id="result_bttn" onclick="calcular()"><p>=</p></div>
+    </section>
+
+    <footer>
+        <p>Site criado por <a href="https://github.com/lumahloi" target="_blank"><strong>Lumah Loise</strong></a></p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
